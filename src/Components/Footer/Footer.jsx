@@ -2,7 +2,7 @@ import './Footer.scss'
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
-    <div className=' p-5'>
+    <div className=' p-5 text-white'>
       <h1 className='dancing-script text-2xl text-center'>Weather Predictor</h1>
       <p className='text-center'>GenRio &copy; {date} | All Rights Reserved</p>
     </div>

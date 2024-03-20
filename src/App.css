@@ -6,9 +6,12 @@
 
 
 
-.app{
+/* body{
   background: url(./assets/images/bg.jpg) no-repeat center center/ cover;
-}
+  background-attachment: fixed;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+} */
 
 
 

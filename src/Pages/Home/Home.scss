@@ -1,0 +1,20 @@
+.video {
+    z-index: -1;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+
+
+  .btn{
+
+    transition: .5s;
+    &:hover{
+        background-color: white;
+        color: black;
+        scale: 1.2;
+        border: black 4px solid;
+        rotate: 5deg;
+    }
+  }
